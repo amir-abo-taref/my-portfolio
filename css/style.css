@@ -1,0 +1,227 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}
+h2 {
+  color: blue;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 8rem;
+}
+h3 {
+  color: blue;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+/* Navbar */
+.navar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  padding: 0 30px;
+  transition: 1s;
+}
+
+.navar.top {
+  background: transparent;
+}
+
+.navar a {
+  padding: 1rem 1rem;
+  margin: 0 0.2rem;
+}
+
+.navar a:hover {
+  border-bottom: #28a745 2px solid;
+}
+
+.navar ul {
+  display: flex;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: -1;
+}
+.aboutme {
+  color: rgb(136, 136, 10);
+}
+.wrapper{
+    width: 40%;
+    min-width: 570px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 30%;
+}
+
+.container *{
+    font-family: "Poppins",sans-serif;
+    color: black;
+    font-weight: 100;
+}
+
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+.details{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+ 
+    border: 2px solid #0d96e0;
+ 
+    border-radius: 20px;
+  
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0d96e0;
+   
+ 
+}
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+#js-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 72%;
+    }
+}
+#jQuery-bar{
+    animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 58%;
+    }
+} 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-5{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+.contact-fome{
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.input-class{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.input-class, .msg{
+    width: 48%;
+}
+.input-class .input, .msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #41B5E6;
+    padding: 10px;
+    color: aqua;
+    width: 100%;
+}
+.msg textarea{
+    height: 200px;
+}
+::-webkit-input-placeholder{
+    color: aquamarine;
+}
+::-moz-input-placeholder{
+    color: aquamarine;
+}
+.button{
+   
+}
+.btn{
+    background: #39b7dd;
+    text-align: center;
+    padding: 15px;
+    border-radius:  5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    box-shadow: 3px 3px 3px #888888;
+}
+msg,button:hover{
+    background-color: orange;
+    color: black;
+}
+@media screen and (max-width: 600px){
+    .contact-fome{
+        flex-direction: column;
+    }
+    .msg text-area{
+        height: 80px;
+    }
+    .input-class, .msg{
+        width: 100%;
+    }
+}
+/*part-4*/
+.myworks{
+  font-size: 6rem;
+  color: #28a745;
+}
+

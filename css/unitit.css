@@ -1,0 +1,81 @@
+#home {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+#bgVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+#about {
+  background-image: url(../image/aboutme.jpg);
+  background-repeat: repeat-y;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#resume {
+  background-image: url(../image/skills-300x216.jpg);
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: relative;
+  left: 0;
+  right:0;
+  top: 0;
+  bottom: 0;
+}
+#works {
+  background-image: url(../image/myworks.jpg) ;
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#contact {
+  background-color: yellow;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+table,
+th,
+td {
+  border: 3px solid royalblue;
+  font-size: 1rem;
+  color: black;
+}
